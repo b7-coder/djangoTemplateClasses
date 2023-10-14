@@ -1,0 +1,10 @@
+создайте и активируйте вирт окружение
+python -m venv myVirt
+myVirt/Scripts/activate
+
+cкачайте джанго
+pip install django
+
+cоздайте проект и приложение(любое имя)
+django-admin startproject some_project .
+python manage.py startapp some_app
